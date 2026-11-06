@@ -1,0 +1,195 @@
+# Medical vocabulary used for (1) medical-term recall and (2) Whisper prompt biasing.
+# One term per line; '#' starts a comment. Matching is case-insensitive on whole words.
+# Starter list hand-picked for primary-care consultations (PriMock57). Extend it,
+# e.g. with terms extracted by scispaCy from the reference notes.
+
+# --- symptoms ---
+abdominal pain
+chest pain
+shortness of breath
+breathlessness
+palpitations
+dizziness
+headache
+migraine
+nausea
+vomiting
+diarrhea
+diarrhoea
+constipation
+fever
+temperature
+cough
+wheeze
+wheezing
+sputum
+phlegm
+fatigue
+lethargy
+lethargic
+rash
+itching
+swelling
+numbness
+tingling
+blurred vision
+sore throat
+runny nose
+heartburn
+indigestion
+reflux
+bloating
+blood in stool
+urinary frequency
+burning
+discharge
+night sweats
+weight loss
+syncope
+fainting
+insomnia
+anxiety
+low mood
+radiation
+radiating
+cramping
+crampy
+tenderness
+stiffness
+
+# --- conditions / diagnoses ---
+asthma
+eczema
+diabetes
+type 2 diabetes
+hypertension
+high blood pressure
+cholesterol
+angina
+heart attack
+myocardial infarction
+stroke
+atrial fibrillation
+pneumonia
+bronchitis
+chest infection
+copd
+tonsillitis
+sinusitis
+gastroenteritis
+food poisoning
+irritable bowel syndrome
+appendicitis
+gallstones
+urinary tract infection
+uti
+cystitis
+kidney stones
+pyelonephritis
+depression
+hypothyroidism
+anaemia
+anemia
+arthritis
+gout
+sciatica
+cellulitis
+conjunctivitis
+otitis media
+viral infection
+covid
+influenza
+dehydration
+deep vein thrombosis
+pulmonary embolism
+concussion
+fracture
+sprain
+laceration
+
+# --- medications ---
+paracetamol
+acetaminophen
+ibuprofen
+aspirin
+codeine
+morphine
+naproxen
+amoxicillin
+penicillin
+antibiotics
+antihistamine
+cetirizine
+salbutamol
+inhaler
+steroid
+prednisolone
+omeprazole
+lansoprazole
+gaviscon
+metformin
+insulin
+statin
+atorvastatin
+simvastatin
+ramipril
+amlodipine
+bisoprolol
+warfarin
+apixaban
+levothyroxine
+sertraline
+citalopram
+contraceptive pill
+dioralyte
+loperamide
+nitrofurantoin
+trimethoprim
+
+# --- examination / history / plan ---
+blood pressure
+heart rate
+pulse
+oxygen saturation
+respiratory rate
+allergies
+allergic
+medical history
+family history
+smoking
+alcohol
+units
+blood test
+urine sample
+x-ray
+ultrasound
+ecg
+ct scan
+referral
+a and e
+emergency department
+follow up
+safety net
+prescription
+pharmacy
+over the counter
+fluids
+rest
+
+# --- anatomy ---
+abdomen
+stomach
+chest
+lungs
+heart
+kidney
+bladder
+bowel
+liver
+throat
+ear
+lower left quadrant
+lower right quadrant
+upper abdomen
+lower back
+pelvis

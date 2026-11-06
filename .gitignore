@@ -1,0 +1,10 @@
+data/primock57/
+results/transcripts/
+results/notes/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+results_smoke/
+.pytest_cache/
+docs/STUDY_GUIDE.md
